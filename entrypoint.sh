@@ -1,3 +1,5 @@
 #!/bin/sh -l
 
-echo "hello $1"
+target=${1:-all}
+
+make $target
