@@ -1,7 +1,7 @@
-name: 'Container Action Template'
-description: 'Get started with Container actions'
-author: 'GitHub'
-inputs: 
+name: 'pandoc-publish'
+description: 'Run make in a repository with pandoc and texlive'
+author: 'dariusf'
+inputs:
   target:
     description: 'Target to make'
     default: 'all'
