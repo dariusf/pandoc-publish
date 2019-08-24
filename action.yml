@@ -2,11 +2,11 @@ name: 'Container Action Template'
 description: 'Get started with Container actions'
 author: 'GitHub'
 inputs: 
-  myInput:
-    description: 'Input to use'
-    default: 'world'
+  target:
+    description: 'Target to make'
+    default: 'all'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.myInput }}
+    - ${{ inputs.target }}
